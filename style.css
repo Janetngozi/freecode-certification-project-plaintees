@@ -1,0 +1,131 @@
+#nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+  
+  }
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/background\ \(2\).png);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding-top: 15px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+   
+
+    
+}
+nav ul a {
+   color: #ffffff;
+    text-decoration: none;
+}
+.quality {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.quality h1 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+    align-items: center;
+    line-height: 24px;
+    color: #ffffff;
+
+}
+.quality input {
+padding: 10px;
+}
+#submit {
+    color: #000000;
+    background-color: yellow;
+    padding: 10px 40px;
+    font-weight: bold;
+    border: none;
+    
+}
+#materials {
+    width: 80%;
+}
+.premium {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 30px;
+}
+.premium img {
+    width: 100px;
+    height: 100px;
+}
+#second {
+   padding: 100px;
+}
+video {
+width: 300px;
+height: 300px;
+
+}
+#third {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    gap: 25px;
+  
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+   
+    border: 1px solid black;
+    flex-basis: 35%;
+}
+.box h1 {
+    padding: 10px;
+    background-color: aqua;
+    
+}
+@media  (max-width: 760px) {
+    h1 {
+        color: red;
+    }
+}
